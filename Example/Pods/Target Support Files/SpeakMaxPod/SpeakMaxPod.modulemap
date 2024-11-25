@@ -1,0 +1,6 @@
+framework module SpeakMaxPod {
+  umbrella header "SpeakMaxPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

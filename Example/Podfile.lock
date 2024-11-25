@@ -1,0 +1,177 @@
+PODS:
+  - Adjust (5.0.1):
+    - Adjust/Adjust (= 5.0.1)
+  - Adjust/Adjust (5.0.1):
+    - AdjustSignature (~> 3.18)
+  - AdjustSignature (3.35.0)
+  - FirebaseAnalytics (11.5.0):
+    - FirebaseAnalytics/AdIdSupport (= 11.5.0)
+    - FirebaseCore (= 11.5)
+    - FirebaseInstallations (~> 11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - FirebaseAnalytics/AdIdSupport (11.5.0):
+    - FirebaseCore (= 11.5)
+    - FirebaseInstallations (~> 11.0)
+    - GoogleAppMeasurement (= 11.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - FirebaseCore (11.5.0):
+    - FirebaseCoreInternal (= 11.5)
+    - GoogleUtilities/Environment (~> 8.0)
+    - GoogleUtilities/Logger (~> 8.0)
+  - FirebaseCoreInternal (11.5.0):
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+  - FirebaseInstallations (11.5.0):
+    - FirebaseCore (= 11.5)
+    - GoogleUtilities/Environment (~> 8.0)
+    - GoogleUtilities/UserDefaults (~> 8.0)
+    - PromisesObjC (~> 2.4)
+  - GoogleAppMeasurement (11.5.0):
+    - GoogleAppMeasurement/AdIdSupport (= 11.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - GoogleAppMeasurement/AdIdSupport (11.5.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 11.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (11.5.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - GoogleUtilities/AppDelegateSwizzler (8.0.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Environment (8.0.2):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Logger (8.0.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/MethodSwizzler (8.0.2):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (8.0.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (8.0.2)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (8.0.2)
+  - GoogleUtilities/Reachability (8.0.2):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/UserDefaults (8.0.2):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - mob_sharesdk (4.4.29):
+    - mob_sharesdk/ShareSDK (= 4.4.29)
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDK (4.4.29):
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/Apple (4.4.29):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/Facebook_Lite (4.4.29):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/GooglePlus (4.4.29):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/Line (4.4.29):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/QQ_Lite (4.4.29):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/WeChat_Lite (4.4.29):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_smssdk (3.3.5):
+    - MOBFoundation
+  - MOBFoundation (3.2.70)
+  - nanopb (3.30910.0):
+    - nanopb/decode (= 3.30910.0)
+    - nanopb/encode (= 3.30910.0)
+  - nanopb/decode (3.30910.0)
+  - nanopb/encode (3.30910.0)
+  - PromisesObjC (2.4.0)
+  - SpeakMaxPod (0.1.0):
+    - Adjust (~> 5.0.1)
+    - FirebaseAnalytics (~> 11.5.0)
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKPlatforms/Apple
+    - mob_sharesdk/ShareSDKPlatforms/Facebook_Lite
+    - mob_sharesdk/ShareSDKPlatforms/GooglePlus
+    - mob_sharesdk/ShareSDKPlatforms/Line
+    - mob_sharesdk/ShareSDKPlatforms/QQ_Lite
+    - mob_sharesdk/ShareSDKPlatforms/WeChat_Lite
+    - mob_smssdk
+    - UMCommon
+    - UMDevice
+  - UMCommon (7.5.0):
+    - UMDevice
+  - UMDevice (3.4.0)
+
+DEPENDENCIES:
+  - SpeakMaxPod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - AdjustSignature
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseInstallations
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - mob_sharesdk
+    - mob_smssdk
+    - MOBFoundation
+    - nanopb
+    - PromisesObjC
+    - UMCommon
+    - UMDevice
+
+EXTERNAL SOURCES:
+  SpeakMaxPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Adjust: f27daaa40d0df5550b89dd428cd8545d812e1f6d
+  AdjustSignature: 3e47c19a8ebed39c72d7de58f5a156c78454b51f
+  FirebaseAnalytics: 2f4a11eeb7a0e9c6fcf642d4e6aaca7fa4d38c28
+  FirebaseCore: 93abc05437f8064cd2bc0a53b768fb0bc5a1d006
+  FirebaseCoreInternal: f47dd28ae7782e6a4738aad3106071a8fe0af604
+  FirebaseInstallations: d8063d302a426d114ac531cd82b1e335a0565745
+  GoogleAppMeasurement: ee5c2d2242816773fbf79e5b0563f5355ef1c315
+  GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
+  mob_sharesdk: b8759ce87ba90cf64801edc7665a18f020cbe620
+  mob_smssdk: 9a4a68260de5af10c681de1b72eb803d6f5173c8
+  MOBFoundation: 5c13261385231ad1005f686d3a99406b8d9bfa14
+  nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  SpeakMaxPod: 901b8b7c02cf93d2620c666fba1d6bfcc888042e
+  UMCommon: 9bfb19a2f40c2521901dacb579bccb0b1cdba8da
+  UMDevice: dcdf7ec167387837559d149fbc7d793d984faf82
+
+PODFILE CHECKSUM: b2813b4680611bb3a4a2d5d6f8f20877f733547f
+
+COCOAPODS: 1.16.2

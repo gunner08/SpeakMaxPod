@@ -1,0 +1,62 @@
+{
+  "name": "SpeakMaxPod",
+  "static_framework": true,
+  "version": "0.1.0",
+  "summary": "A short description of SpeakMaxPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gunner08/SpeakMaxPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gunner08": "gunner0418@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gunner08/SpeakMaxPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "SpeakMaxPod/Classes/**/*",
+  "vendored_frameworks": "SpeakMaxPod/Frameworks/UnityPod.framework",
+  "dependencies": {
+    "FirebaseAnalytics": [
+      "~> 11.5.0"
+    ],
+    "Adjust": [
+      "~> 5.0.1"
+    ],
+    "UMCommon": [
+
+    ],
+    "UMDevice": [
+
+    ],
+    "mob_sharesdk": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/QQ_Lite": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/Facebook_Lite": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/Apple": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/GooglePlus": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/Line": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/WeChat_Lite": [
+
+    ],
+    "mob_smssdk": [
+
+    ]
+  }
+}
