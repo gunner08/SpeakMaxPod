@@ -29,6 +29,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/gunner08/SpeakMaxPod.git', :tag => s.version.to_s }
   s.platform         = :ios, '12.0'
   s.ios.deployment_target = '12.0'
+  s.cocoapods_version = '>= 1.12.0'
+  s.swift_version     = '5.9'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.source_files = 'SpeakMaxPod/Classes/**/*'

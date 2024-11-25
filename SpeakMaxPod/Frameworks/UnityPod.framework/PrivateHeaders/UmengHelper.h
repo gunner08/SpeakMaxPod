@@ -9,7 +9,7 @@
 #define UmengHelper_h
 
 #import <Foundation/Foundation.h>
-#import <UMCommon/UMCommon.h>
+
 @interface UmengHelper : NSObject{
     
 }
