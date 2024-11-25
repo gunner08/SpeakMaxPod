@@ -40,6 +40,10 @@
 		<data>
 		SI43ycg7WNqXL5m5mipKJryPX6Q=
 		</data>
+		<key>Headers/UnityTools.h</key>
+		<data>
+		Hx2d/QlXmKLNz+8JEt4zq8W/fmA=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		g33sbizN84b/5B3vlhKCLgoBO+0=
@@ -314,10 +318,6 @@
 		<data>
 		4qp2tFYXtfAyfEO1D9DHiwVzQH8=
 		</data>
-		<key>PrivateHeaders/UnityTools.h</key>
-		<data>
-		Hx2d/QlXmKLNz+8JEt4zq8W/fmA=
-		</data>
 		<key>ShareSDK.bundle/Base.lproj/ShareSDK.strings</key>
 		<dict>
 			<key>hash</key>
@@ -488,6 +488,13 @@
 			<key>hash2</key>
 			<data>
 			8cgIXn3Bc69NfYHdx4YxHplIoomMlVHmRfdQdxC72lg=
+			</data>
+		</dict>
+		<key>Headers/UnityTools.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eWRDVu82A+rnmj5Hta7NF0YDEK+CZNbLDLvfOp81oTc=
 			</data>
 		</dict>
 		<key>LineSDKResource.bundle/ar.lproj/Localizable.strings</key>
@@ -839,13 +846,6 @@
 			<key>hash2</key>
 			<data>
 			J0zM3ym95exAEbSX5zfGFKihMy1YklwfDmMJ6XcC2tw=
-			</data>
-		</dict>
-		<key>PrivateHeaders/UnityTools.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eWRDVu82A+rnmj5Hta7NF0YDEK+CZNbLDLvfOp81oTc=
 			</data>
 		</dict>
 		<key>ShareSDK.bundle/Base.lproj/ShareSDK.strings</key>

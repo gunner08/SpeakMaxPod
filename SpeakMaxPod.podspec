@@ -30,12 +30,13 @@ TODO: Add long description of the pod here.
   s.platform         = :ios, '12.0'
   s.ios.deployment_target = '12.0'
   s.cocoapods_version = '>= 1.12.0'
-  s.swift_version     = '5.9'
+  s.platforms = { :ios => '12.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.source_files = 'SpeakMaxPod/Classes/**/*'
   
-  s.vendored_frameworks = 'SpeakMaxPod/Frameworks/UnityPod.framework'
+  s.vendored_frameworks = 'SpeakMaxPod/Frameworks/*.framework'
+  s.public_header_files = 'SpeakMaxPod/Frameworks/*.framework/Headers/*.h'
   
   #Google
   s.dependency  'FirebaseAnalytics', '~> 11.5.0'
