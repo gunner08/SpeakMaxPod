@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "14CE22057AAD4604D1EF3E0021503361"
-               BuildableName = "SpeakMaxPod.framework"
+               BuildableName = "SpeakMaxPod"
                BlueprintName = "SpeakMaxPod"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

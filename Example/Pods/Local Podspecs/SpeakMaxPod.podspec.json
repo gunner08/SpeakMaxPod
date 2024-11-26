@@ -16,50 +16,14 @@
     "git": "https://github.com/gunner08/SpeakMaxPod.git",
     "tag": "0.1.0"
   },
+  "cocoapods_version": ">= 1.12.0",
   "platforms": {
     "ios": "12.0"
   },
-  "cocoapods_version": ">= 1.12.0",
-  "swift_versions": "5.9",
   "source_files": "SpeakMaxPod/Classes/**/*",
   "vendored_frameworks": "SpeakMaxPod/Frameworks/*.framework",
-  "dependencies": {
-    "FirebaseAnalytics": [
-      "~> 11.5.0"
-    ],
-    "Adjust": [
-      "~> 5.0.1"
-    ],
-    "UMCommon": [
-
-    ],
-    "UMDevice": [
-
-    ],
-    "mob_sharesdk": [
-
-    ],
-    "mob_sharesdk/ShareSDKPlatforms/QQ_Lite": [
-
-    ],
-    "mob_sharesdk/ShareSDKPlatforms/Facebook_Lite": [
-
-    ],
-    "mob_sharesdk/ShareSDKPlatforms/Apple": [
-
-    ],
-    "mob_sharesdk/ShareSDKPlatforms/GooglePlus": [
-
-    ],
-    "mob_sharesdk/ShareSDKPlatforms/Line": [
-
-    ],
-    "mob_sharesdk/ShareSDKPlatforms/WeChat_Lite": [
-
-    ],
-    "mob_smssdk": [
-
-    ]
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS": "x86_64"
   },
-  "swift_version": "5.9"
+  "prepare_command": "echo \"请确保在主项目的 Podfile 中手动添加以下依赖：\"\necho \"  pod 'FirebaseAnalytics', '~> 11.5.0'\"\necho \"  pod 'Adjust', '~> 5.0.1'\"\necho \"  pod 'UMCommon'\"\necho \"  pod 'UMDevice'\"\necho \"  pod 'mob_sharesdk'\"\necho \"  pod 'mob_sharesdk/ShareSDKPlatforms/QQ_Lite'\"\necho \"  pod 'mob_sharesdk/ShareSDKPlatforms/Facebook_Lite'\"\necho \"  pod 'mob_sharesdk/ShareSDKPlatforms/Apple'\"\necho \"  pod 'mob_sharesdk/ShareSDKPlatforms/GooglePlus'\"\necho \"  pod 'mob_sharesdk/ShareSDKPlatforms/Line'\"\necho \"  pod 'mob_sharesdk/ShareSDKPlatforms/Kakao'\"\necho \"  pod 'mob_sharesdk/ShareSDKPlatforms/WeChat_Lite'\"\necho \"  pod 'mob_smssdk'\""
 }

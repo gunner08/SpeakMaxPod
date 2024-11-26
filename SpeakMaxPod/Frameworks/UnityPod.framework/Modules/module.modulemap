@@ -1,6 +1,0 @@
-framework module UnityPod {
-  umbrella header "UnityPod.h"
-  export *
-
-  module * { export * }
-}

@@ -1,5 +1,0 @@
-framework module SMS_SDK {
-  umbrella header "SMSHeader.h"
-  export *
-  module * { export * }
-}

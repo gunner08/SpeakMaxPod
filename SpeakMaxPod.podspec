@@ -27,8 +27,6 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gunner08' => 'gunner0418@gmail.com' }
   s.source           = { :git => 'https://github.com/gunner08/SpeakMaxPod.git', :tag => s.version.to_s }
-  s.platform         = :ios, '12.0'
-  s.ios.deployment_target = '12.0'
   s.cocoapods_version = '>= 1.12.0'
   s.platforms = { :ios => '12.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
@@ -36,32 +34,32 @@ TODO: Add long description of the pod here.
   s.source_files = 'SpeakMaxPod/Classes/**/*'
   
   s.vendored_frameworks = 'SpeakMaxPod/Frameworks/*.framework'
-  s.public_header_files = 'SpeakMaxPod/Frameworks/*.framework/Headers/*.h'
+#  s.public_header_files = 'SpeakMaxPod/Frameworks/*.framework/Headers/*.h'
   
-  #Google
-  s.dependency  'FirebaseAnalytics', '~> 11.5.0'
-  #Google代码追踪
-  #s.dependency  'GoogleTagManager', '~> 8.0.0'
-  #adjust
-  s.dependency 'Adjust', '~> 5.0.1'
-  
-  #友盟
-  s.dependency 'UMCommon'
-  s.dependency 'UMDevice'
-  #调试集成 发布注释掉log模块
-#  s.dependency 'UMCCommonLog'
-
-  #mob share
-  s.dependency 'mob_sharesdk'
-  s.dependency 'mob_sharesdk/ShareSDKPlatforms/QQ_Lite'
-  s.dependency 'mob_sharesdk/ShareSDKPlatforms/Facebook_Lite'
-  s.dependency 'mob_sharesdk/ShareSDKPlatforms/Apple'
-  s.dependency 'mob_sharesdk/ShareSDKPlatforms/GooglePlus'
-  s.dependency 'mob_sharesdk/ShareSDKPlatforms/Line'
-  #kakao wechat 不能放里面 直接在项目导入
-  #  s.dependency 'mob_sharesdk/ShareSDKPlatforms/Kakao'
-  s.dependency 'mob_sharesdk/ShareSDKPlatforms/WeChat_Lite'
+#  #Google
+#  s.dependency  'FirebaseAnalytics', '~> 11.5.0'
+#  #Google代码追踪
+#  #s.dependency  'GoogleTagManager', '~> 8.0.0'
+#  #adjust
+#  s.dependency 'Adjust', '~> 5.0.1'
+#  
+#  #友盟
+#  s.dependency 'UMCommon'
+#  s.dependency 'UMDevice'
+#  #调试集成 发布注释掉log模块
+##  s.dependency 'UMCCommonLog'
+#
+#  #mob share
+#  s.dependency 'mob_sharesdk'
+#  s.dependency 'mob_sharesdk/ShareSDKPlatforms/QQ_Lite'
+#  s.dependency 'mob_sharesdk/ShareSDKPlatforms/Facebook_Lite'
+#  s.dependency 'mob_sharesdk/ShareSDKPlatforms/Apple'
+#  s.dependency 'mob_sharesdk/ShareSDKPlatforms/GooglePlus'
+#  s.dependency 'mob_sharesdk/ShareSDKPlatforms/Line'
+#  #kakao wechat 不能放里面 直接在项目导入
+#  s.dependency 'mob_sharesdk/ShareSDKPlatforms/Kakao'
+#  s.dependency 'mob_sharesdk/ShareSDKPlatforms/WeChat_Lite'
   
   #mob sms
-  s.dependency 'mob_smssdk'
+#  s.dependency 'mob_smssdk'
 end
