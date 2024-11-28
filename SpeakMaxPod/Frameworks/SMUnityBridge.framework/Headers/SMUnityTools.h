@@ -9,7 +9,7 @@
 #define UnityTools_h
 #import <Foundation/Foundation.h>
 
-@interface UnityTools : NSObject{}
+@interface SMUnityTools : NSObject{}
 +(void) Send2Unity:(NSString *)msgType andData:(NSString *)JsonData;
 +(void)SetUnitySendMessageFunction:(void (*)(const char* objectName, const char* methodName, const char* message))function;
 @end

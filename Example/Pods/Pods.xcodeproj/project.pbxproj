@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -15,11 +15,15 @@
 			dependencies = (
 			);
 			name = SpeakMaxPod;
+			productName = SpeakMaxPod;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
 		2CA4EFA0219FAD8F6FDCB3745BBC5663 /* Pods-SpeakMaxPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE23A2DF33BDF4A80FD509817A0B7F7 /* Pods-SpeakMaxPod_Tests-dummy.m */; };
+		A5165E292CF8A00E00A8F4AF /* SMUnityBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = A5165E282CF8A00E00A8F4AF /* SMUnityBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5165E2D2CF8A01B00A8F4AF /* SMUnityBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5F162CD81FBD0CB1CF6E1FCF7A26CC /* SMUnityBridge.framework */; platformFilter = ios; };
+		A5165E2E2CF8A01B00A8F4AF /* SMUnityBridge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5F162CD81FBD0CB1CF6E1FCF7A26CC /* SMUnityBridge.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B7163E4C45F47A7793B9B7B7F4F77327 /* Pods-SpeakMaxPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDD1001E96FB2EEFAC49876B9C12E86 /* Pods-SpeakMaxPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFA437E9DC1B75D18ECE9D5A9C7AA4E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -34,24 +38,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A5165E2F2CF8A01B00A8F4AF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A5165E2E2CF8A01B00A8F4AF /* SMUnityBridge.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0C285F834EF6C8A9E7FD2387D658491F /* Pods-SpeakMaxPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpeakMaxPod_Tests.modulemap"; sourceTree = "<group>"; };
 		0D40AA80FA06ABEC6EDC6104593EFDD9 /* Pods-SpeakMaxPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeakMaxPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2B3A1E9916EB8541F183A4E99B0B7135 /* Pods-SpeakMaxPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SpeakMaxPod_Tests"; path = Pods_SpeakMaxPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		319079A4291E10D3DC9D4590F4E21C62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		319079A4291E10D3DC9D4590F4E21C62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		387B507AC886276A303AF9EE53E3787B /* Pods-SpeakMaxPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeakMaxPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4716AF8F33046D66ADB4E7EFDCC7DB50 /* Pods-SpeakMaxPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpeakMaxPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B5F162CD81FBD0CB1CF6E1FCF7A26CC /* SMUnityBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SMUnityBridge.framework; path = SpeakMaxPod/Frameworks/SMUnityBridge.framework; sourceTree = "<group>"; };
 		4BDD1001E96FB2EEFAC49876B9C12E86 /* Pods-SpeakMaxPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpeakMaxPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4EFFBA4FF01E4C1F650EF18905C554F4 /* SpeakMaxPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SpeakMaxPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4EFFBA4FF01E4C1F650EF18905C554F4 /* SpeakMaxPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SpeakMaxPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5165E262CF8A00E00A8F4AF /* SMUnityBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMUnityBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5165E282CF8A00E00A8F4AF /* SMUnityBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMUnityBridge.h; sourceTree = "<group>"; };
 		A71E1DF31E4950B766FEA81CE73DFA1A /* Pods-SpeakMaxPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpeakMaxPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BD0C1B2354CB862C335A2C3BAE572BE2 /* SpeakMaxPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpeakMaxPod.debug.xcconfig; sourceTree = "<group>"; };
 		BDE23A2DF33BDF4A80FD509817A0B7F7 /* Pods-SpeakMaxPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpeakMaxPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		CED48ACA6BEC16A52BC1B00A61B57979 /* Pods-SpeakMaxPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpeakMaxPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		D59BEC91856508E6B4558DD8CF855F66 /* Pods-SpeakMaxPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpeakMaxPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F5D9FCCDD862C482C906A39A3D65D0A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F5D9FCCDD862C482C906A39A3D65D0A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FBA2DDA9B7637F63BA8CA72855475E77 /* SpeakMaxPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpeakMaxPod.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +81,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFA437E9DC1B75D18ECE9D5A9C7AA4E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5165E232CF8A00E00A8F4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5165E2D2CF8A01B00A8F4AF /* SMUnityBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +130,14 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		A5165E272CF8A00E00A8F4AF /* SMUnityBridge */ = {
+			isa = PBXGroup;
+			children = (
+				A5165E282CF8A00E00A8F4AF /* SMUnityBridge.h */,
+			);
+			path = SMUnityBridge;
+			sourceTree = "<group>";
+		};
 		B9FA7BC4D30B08BE1ACBA4E74971DAC9 /* Pods-SpeakMaxPod_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				2B3A1E9916EB8541F183A4E99B0B7135 /* Pods-SpeakMaxPod_Tests */,
+				A5165E262CF8A00E00A8F4AF /* SMUnityBridge.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +169,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				88604ED7E6D473B5D0796768BF3B3790 /* Development Pods */,
+				A5165E272CF8A00E00A8F4AF /* SMUnityBridge */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BEA7E32141EFD70DB337757B9D377B54 /* Products */,
 				19AE9A176E1D5769F6F8070F97CEC8E0 /* Targets Support Files */,
@@ -177,6 +215,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		A5165E212CF8A00E00A8F4AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5165E292CF8A00E00A8F4AF /* SMUnityBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8F0F1445EC438DB64802B641D063E79 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,6 +253,25 @@
 			productReference = 2B3A1E9916EB8541F183A4E99B0B7135 /* Pods-SpeakMaxPod_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
+		A5165E252CF8A00E00A8F4AF /* SMUnityBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5165E2C2CF8A00E00A8F4AF /* Build configuration list for PBXNativeTarget "SMUnityBridge" */;
+			buildPhases = (
+				A5165E212CF8A00E00A8F4AF /* Headers */,
+				A5165E222CF8A00E00A8F4AF /* Sources */,
+				A5165E232CF8A00E00A8F4AF /* Frameworks */,
+				A5165E242CF8A00E00A8F4AF /* Resources */,
+				A5165E2F2CF8A01B00A8F4AF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMUnityBridge;
+			productName = SMUnityBridge;
+			productReference = A5165E262CF8A00E00A8F4AF /* SMUnityBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,6 +280,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A5165E252CF8A00E00A8F4AF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -225,19 +295,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = BEA7E32141EFD70DB337757B9D377B54 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				815D52E4180D8498683C1CCDA22E50E2 /* Pods-SpeakMaxPod_Tests */,
 				14CE22057AAD4604D1EF3E0021503361 /* SpeakMaxPod */,
+				A5165E252CF8A00E00A8F4AF /* SMUnityBridge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A5165E242CF8A00E00A8F4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F10942DDCE09C99C6FD867C306CB08EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,6 +329,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CA4EFA0219FAD8F6FDCB3745BBC5663 /* Pods-SpeakMaxPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5165E222CF8A00E00A8F4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +427,10 @@
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -361,7 +447,10 @@
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,7 +538,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SpeakMaxPod_Tests/Pods-SpeakMaxPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SpeakMaxPod_Tests/Pods-SpeakMaxPod_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -486,7 +579,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SpeakMaxPod_Tests/Pods-SpeakMaxPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SpeakMaxPod_Tests/Pods-SpeakMaxPod_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -501,6 +598,89 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A5165E2A2CF8A00E00A8F4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 92RGB2469K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxoo.SMUnityBridge;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5165E2B2CF8A00E00A8F4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 92RGB2469K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxoo.SMUnityBridge;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -528,6 +708,15 @@
 			buildConfigurations = (
 				A0B013153A3378A4B5A38FACBB5922A5 /* Debug */,
 				94386EEC1A02009D98F8739753D7E5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5165E2C2CF8A00E00A8F4AF /* Build configuration list for PBXNativeTarget "SMUnityBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5165E2A2CF8A00E00A8F4AF /* Debug */,
+				A5165E2B2CF8A00E00A8F4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

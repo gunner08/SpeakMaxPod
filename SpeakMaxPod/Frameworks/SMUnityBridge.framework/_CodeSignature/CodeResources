@@ -4,13 +4,69 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/HapticFeedbackInterface.h</key>
+		<data>
+		qaX5J/qHxfVFABl7QYi8AZoMoBc=
+		</data>
+		<key>Headers/PermissionInterface.h</key>
+		<data>
+		g76n0ugcY06kCfQVUj3ZmhD5s9A=
+		</data>
+		<key>Headers/SMInterface.h</key>
+		<data>
+		hy3+s2I+LcsZxIJCcCQme/XoO44=
+		</data>
+		<key>Headers/SMUnityTools.h</key>
+		<data>
+		Z0ZVHH/2WFTjc9z9JwS15+K2YG4=
+		</data>
+		<key>Headers/SpeechInterface.h</key>
+		<data>
+		chaIfKOICXT6G5FwQw+QJ/rkWf4=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		lhDDEOw7BKU7fHFF+L3ww059AcU=
+		oIRz6ROlN4F9nZhu3Hs06z1O6M4=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>Headers/HapticFeedbackInterface.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fdqnuRgCKS87t+REBNYng4EyRRCnQivkRNcU3JYiPx8=
+			</data>
+		</dict>
+		<key>Headers/PermissionInterface.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8Aayprn3iysXPQNiCcsm29miRWhJ6LfdAFY+rNEC3eo=
+			</data>
+		</dict>
+		<key>Headers/SMInterface.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FJL7JaFdOdQRY0Cg8qShiRGY+Z33MPh57SbIVOq+V24=
+			</data>
+		</dict>
+		<key>Headers/SMUnityTools.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+dCs8ZU0ElsjMhPKk2AD10qhtxySQAcHLWPnmfWAvzY=
+			</data>
+		</dict>
+		<key>Headers/SpeechInterface.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			prVj/vt3gpyaM1BaT4lADDr0mkinEdcOcWyzEWfbTx0=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>
